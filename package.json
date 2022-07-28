@@ -1,0 +1,35 @@
+{
+  "name": "weather-cli",
+  "version": "1.0.0",
+  "description": "getting weather CLI",
+  "main": "src/weather.js",
+  "bin": {
+    "weather": "src/weather.js"
+  },
+  "type": "module",
+  "scripts": {
+    "start": "node src/weather.js -t lol",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/romagan/node-weather-cli.git"
+  },
+  "keywords": [
+    "weather",
+    "node",
+    "cli",
+    "openweather"
+  ],
+  "author": "RK",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/romagan/node-weather-cli/issues"
+  },
+  "homepage": "https://github.com/romagan/node-weather-cli#readme",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "chalk": "^5.0.1",
+    "dedent-js": "^1.0.1"
+  }
+}
