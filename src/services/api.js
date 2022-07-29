@@ -3,7 +3,7 @@ import {getKeyValue, PARAMS_NAMES} from './store.js'
 
 const API_URL = `https://api.openweathermap.org/data/2.5/weather`
 
-export const getWeather = async (city) => {
+export const fetchWeather = async (city) => {
   const token = await getKeyValue(PARAMS_NAMES.TOKEN)
 
   if (!token) {
